@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MyProject" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="MyProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="E:\CODE\MyProject\.objs" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="MyProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="E:\CODE\MyProject\.objs" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="CDate.cpp" />
+		<Unit filename="CDate.h" />
+		<Unit filename="Console.cpp" />
+		<Unit filename="Console.h" />
+		<Unit filename="Course.cpp" />
+		<Unit filename="Course.h" />
+		<Unit filename="DateError.cpp" />
+		<Unit filename="ElectiveCourse.cpp" />
+		<Unit filename="ElectiveCourse.h" />
+		<Unit filename="GradeError.cpp" />
+		<Unit filename="GradeError.h" />
+		<Unit filename="MyException.cpp" />
+		<Unit filename="MyException.h" />
+		<Unit filename="MyProject.cbp" />
+		<Unit filename="ObligatoryCourse.cpp" />
+		<Unit filename="ObligatoryCourse.h" />
+		<Unit filename="Student.cpp" />
+		<Unit filename="Student.h" />
+		<Unit filename="SubError.cpp" />
+		<Unit filename="SubError.h" />
+		<Unit filename="TypeError.cpp" />
+		<Unit filename="TypeError.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
